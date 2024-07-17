@@ -3,6 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+const HoverComponent = () => {
+    const [backgroundColor, setBackgroundColor] = useState('transparent');
+  
+    const handleMouseEnter = () => {
+      setBackgroundColor('#1C1E53');
+    };
+  
+    const handleMouseLeave = () => {
+      setBackgroundColor('transparent');
+    };
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -131,7 +143,10 @@ function App() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="websitePage">
+                            <div class="websitePage"
+                             
+                             onMouseEnter={() => this.handleMouseEnter}
+                             onMouseLeave={() => this.handleMouseLeave} >
                                 <div class="price_box">
                                     <div class="price">$399</div>
                                     <div class="price-Task">Multi Design</div>
