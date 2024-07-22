@@ -66,3 +66,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+
+/* react newie */
+
+.websitePage {
+  transition: background-color 0.3s ease;
+}
+
+.wrapper{
+  background-color: red;
+}
