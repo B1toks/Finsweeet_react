@@ -687,18 +687,14 @@ margin-top: 4px;
 
 
 
-.main{
-  background-color: red;
-}
-
 /* hovered */
 
 
-.websitePage, .landingPage, .complexProject {
-  transition: background-color 0.3s, transform 0.3s;
+.websitePage, .landingPage, .complexProjext {
+  transition: background-color .8s, transform .8s;
 }
 
-.websitePage.hovered, .landingPage.hovered, .complexProject.hovered {
+.websitePage:hover, .landingPage:hover, .complexProjext:hover {
   background-color: #1C1E53;
   transform: scale(1.05);
   transition: 500ms;
@@ -706,12 +702,12 @@ margin-top: 4px;
 
 .websitePage:hover .div_but_view_ourwork,
 .landingPage:hover .div_but_view_ourwork,
-.complexProject:hover .div_but_view_ourwork {
+.complexProjext:hover .div_but_view_ourwork {
   background-color: #FCD980; /* Змінений колір кнопки при наведенні */
 }
 
 .div_but_view_ourwork:hover {
-  padding: 16px 64px;
+  padding: 8px 32px;
 }
 
 .websitePage:hover .benefit, 
@@ -722,15 +718,15 @@ margin-top: 4px;
 .landingPage:hover .price, 
 .landingPage:hover .price-underTitle, 
 .landingPage:hover .price-Title,
-.complexProject:hover .benefit, 
-.complexProject:hover .price, 
-.complexProject:hover .price-underTitle, 
-.complexProject:hover .price-Title {
+.complexProjext:hover .benefit, 
+.complexProjext:hover .price, 
+.complexProjext:hover .price-underTitle, 
+.complexProjext:hover .price-Title {
   color: #fff;
 }
 
 .websitePage:hover .price-Task, 
 .landingPage:hover .price-Task, 
-.complexProject:hover .price-Task {
+.complexProjext:hover .price-Task {
   color: #FCD980;
 }
