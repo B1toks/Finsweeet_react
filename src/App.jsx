@@ -21,11 +21,11 @@ function App() {
   return (
     <>
         
-    <wrapper class="wrapper">
-        <header class="header">
-            <div class="header_content">
-                <div class="logo">
-                    <a href="index.html" class="alogo">
+    <wrapper className="wrapper">
+        <header className="header">
+            <div className="header_content">
+                <div className="logo">
+                    <a href="index.html" className="alogo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="122" height="25" viewBox="0 0 122 25" fill="none">
                             <g clip-path="url(#clip0_1_1295)">
                               <path d="M121.784 18.8714V21.8905H119.252C116.549 21.8056 115.105 20.3462 115.105 17.6051V10.7098H113.337V8.06127H115.105V5.09621H118.842V8.03038H121.699V10.6711H118.842V17.2344C118.842 18.1224 119.02 18.8328 120.387 18.8328L121.784 18.8714Z" fill="white"/>
@@ -60,22 +60,22 @@ function App() {
                 </div>
             </div>
         </header>
-        <main class="main">
-            <div class="OurPricingPlans_divBlock">
-                <div class="OurPricingPlans_title_box">
-                    <div class="OurPricingPlans_title_box_content">
-                        <div class="OurPricingPlans_title">Our Pricing Plans</div>
-                        <div class="OurPricingPlans_undertitle">When you’re ready to go beyond prototyping in Figma, Webflow isready to help you bring your designs to life — without coding them.</div>
-                        <div class="pricingPlans">
-                            <div class="landingPage">
-                                <div class="price_box">
-                                    <div class="price">$299</div>
-                                    <div class="price-Task">Per-Design</div>
+        <main className="main">
+            <div className="OurPricingPlans_divBlock">
+                <div className="OurPricingPlans_title_box">
+                    <div className="OurPricingPlans_title_box_content">
+                        <div className="OurPricingPlans_title">Our Pricing Plans</div>
+                        <div className="OurPricingPlans_undertitle">When you’re ready to go beyond prototyping in Figma, Webflow isready to help you bring your designs to life — without coding them.</div>
+                        <div className="pricingPlans">
+                            <div className="landingPage">
+                                <div className="price_box">
+                                    <div className="price">$299</div>
+                                    <div className="price-Task">Per-Design</div>
                                 </div>
-                                <div class="price-Title">Landing Page </div>
-                                <div class="price-underTitle">When you’re ready to go beyond prototyping in Figma</div>
-                                <div class="benefits_box">
-                                    <div class="benefit_item">
+                                <div className="price-Title">Landing Page </div>
+                                <div className="price-underTitle">When you’re ready to go beyond prototyping in Figma</div>
+                                <div className="benefits_box">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -85,9 +85,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">All limited links</p>
+                                        <p className="benefit">All limited links</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -97,9 +97,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Own analytics platform</p>
+                                        <p className="benefit">Own analytics platform</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -109,9 +109,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Chat support</p>
+                                        <p className="benefit">Chat support</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -121,9 +121,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Optimize hashtags</p>
+                                        <p className="benefit">Optimize hashtags</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -133,28 +133,28 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Unlimited users</p>
+                                        <p className="benefit">Unlimited users</p>
                                     </div>
                                     
                                 </div>
-                                <div class="button_plan">
-                                    <div class="div_but_view_ourwork">
-                                        <a href="#" class = "bav">Get started</a>
+                                <div className="button_plan">
+                                    <div className="div_but_view_ourwork">
+                                        <a href="#" className = "bav">Get started</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="websitePage"
+                            <div className="websitePage"
                              
                              onMouseEnter={() => this.handleMouseEnter}
                              onMouseLeave={() => this.handleMouseLeave} >
-                                <div class="price_box">
-                                    <div class="price">$399</div>
-                                    <div class="price-Task">Multi Design</div>
+                                <div className="price_box">
+                                    <div className="price">$399</div>
+                                    <div className="price-Task">Multi Design</div>
                                 </div>
-                                <div class="price-Title">Website Page</div>
-                                <div class="price-underTitle">When you’re ready to go beyond prototyping in Figma.</div>
-                                <div class="benefits_box">
-                                    <div class="benefit_item">
+                                <div className="price-Title">Website Page</div>
+                                <div className="price-underTitle">When you’re ready to go beyond prototyping in Figma.</div>
+                                <div className="benefits_box">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -164,9 +164,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">All limited links</p>
+                                        <p className="benefit">All limited links</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -176,9 +176,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Own analytics platform</p>
+                                        <p className="benefit">Own analytics platform</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -188,9 +188,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Chat support</p>
+                                        <p className="benefit">Chat support</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -200,9 +200,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Optimize hashtags</p>
+                                        <p className="benefit">Optimize hashtags</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -212,26 +212,26 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Unlimited users</p>
+                                        <p className="benefit">Unlimited users</p>
                                     </div>
                                     
                                 </div>
-                                <div class="button_plan">
-                                    <div class="div_but_view_ourwork">
-                                        <a href="#" class = "bav">Get started</a>
+                                <div className="button_plan">
+                                    <div className="div_but_view_ourwork">
+                                        <a href="#" className = "bav">Get started</a>
                                     </div>
                                 </div>
                                 
                             </div>
-                            <div class="complexProjext">
-                                <div class="price_box">
-                                    <div class="price">$499+</div>
-                                    <div class="price-Task">Per Design</div>
+                            <div className="complexProjext">
+                                <div className="price_box">
+                                    <div className="price">$499+</div>
+                                    <div className="price-Task">Per Design</div>
                                 </div>
-                                <div class="price-Title">Complex Project</div>
-                                <div class="price-underTitle">When you’re ready to go beyond prototyping in Figma</div>
-                                <div class="benefits_box">
-                                    <div class="benefit_item">
+                                <div className="price-Title">Complex Project</div>
+                                <div className="price-underTitle">When you’re ready to go beyond prototyping in Figma</div>
+                                <div className="benefits_box">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -241,9 +241,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">All limited links</p>
+                                        <p className="benefit">All limited links</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -253,9 +253,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Own analytics platform</p>
+                                        <p className="benefit">Own analytics platform</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -265,9 +265,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Chat support</p>
+                                        <p className="benefit">Chat support</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -277,9 +277,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Optimize hashtags</p>
+                                        <p className="benefit">Optimize hashtags</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -289,9 +289,9 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Unlimited users</p>
+                                        <p className="benefit">Unlimited users</p>
                                     </div>
-                                    <div class="benefit_item">
+                                    <div className="benefit_item">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                                             <path d="M13.7767 9.23707C14.5942 9.85191 14.5701 11.0868 13.729 11.6691L3.85392 18.5069C2.85908 19.1958 1.5 18.4838 1.5 17.2737L1.5 3.00968C1.5 1.77272 2.91294 1.06739 3.90155 1.81084L13.7767 9.23707Z" fill="#97DAAD" stroke="url(#paint0_linear_1_69)" stroke-width="3"/>
                                             <defs>
@@ -301,12 +301,12 @@ function App() {
                                             </linearGradient>
                                             </defs>
                                         </svg>
-                                        <p class="benefit">Assist and Help</p>
+                                        <p className="benefit">Assist and Help</p>
                                     </div>
                                 </div>
-                                <div class="button_plan">
-                                    <div class="div_but_view_ourwork">
-                                        <a href="contacts.html" class = "bav">Contact Us</a>
+                                <div className="button_plan">
+                                    <div className="div_but_view_ourwork">
+                                        <a href="contacts.html" className = "bav">Contact Us</a>
                                     </div>
                                 </div>
                                 
@@ -315,70 +315,70 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div class="faq_divBloc">
-                <div class="faq_title_box">
-                    <div class="faq_title">Frequently asked questions</div>
-                    <a href="#" class="formoreinfo">Contact us For More Info</a>
+            <div className="faq_divBloc">
+                <div className="faq_title_box">
+                    <div className="faq_title">Frequently asked questions</div>
+                    <a href="#" className="formoreinfo">Contact us For More Info</a>
                 </div>
-                <div class="faq_question_box">
-                    <div class="faq_question_item">
-                        <div class="faq_number_of_question">01</div>
-                        <div class="faq_question">
-                            <div class="faq_question_title">How much time does it take ?</div>
-                            <div class="faq_question_underTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                <div className="faq_question_box">
+                    <div className="faq_question_item">
+                        <div className="faq_number_of_question">01</div>
+                        <div className="faq_question">
+                            <div className="faq_question_title">How much time does it take ?</div>
+                            <div className="faq_question_underTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                             
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                             <path opacity="0.7" d="M13.449 15.8929L8.30697 10.7508L3.03761 16.0201L0.339287 13.3218L5.60865 8.05247L0.466566 2.91039L2.91033 0.466626L8.05241 5.60871L13.3218 0.339346L16.0201 3.03767L10.7507 8.30703L15.8928 13.4491L13.449 15.8929Z" fill="#282938"/>
                         </svg>
                     </div>
-                    <div class="faq_question_item">
-                        <div class="faq_number_of_question">02</div>
-                        <div class="faq_question">
-                            <div class="faq_question_title">What is your class naming convention ?</div>
+                    <div className="faq_question_item">
+                        <div className="faq_number_of_question">02</div>
+                        <div className="faq_question">
+                            <div className="faq_question_title">What is your class naming convention ?</div>
                             
                             
                         </div>
-                        <div class="x">
+                        <div className="x">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                 <path opacity="0.7" d="M13.449 15.8929L8.30697 10.7508L3.03761 16.0201L0.339287 13.3218L5.60865 8.05247L0.466566 2.91039L2.91033 0.466626L8.05241 5.60871L13.3218 0.339346L16.0201 3.03767L10.7507 8.30703L15.8928 13.4491L13.449 15.8929Z" fill="#282938"/>
                             </svg>
                         </div>
                     </div>
-                    <div class="faq_question_item">
-                        <div class="faq_number_of_question">03</div>
-                        <div class="faq_question">
-                            <div class="faq_question_title">How do we communicate ?</div>
+                    <div className="faq_question_item">
+                        <div className="faq_number_of_question">03</div>
+                        <div className="faq_question">
+                            <div className="faq_question_title">How do we communicate ?</div>
                             
                             
                         </div>
-                        <div class="x">
+                        <div className="x">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                 <path opacity="0.7" d="M13.449 15.8929L8.30697 10.7508L3.03761 16.0201L0.339287 13.3218L5.60865 8.05247L0.466566 2.91039L2.91033 0.466626L8.05241 5.60871L13.3218 0.339346L16.0201 3.03767L10.7507 8.30703L15.8928 13.4491L13.449 15.8929Z" fill="#282938"/>
                             </svg>
                         </div>
                     </div>
-                    <div class="faq_question_item">
-                        <div class="faq_number_of_question">04</div>
-                        <div class="faq_question">
-                            <div class="faq_question_title">I have a bigger project. Can you handle it ?</div>
+                    <div className="faq_question_item">
+                        <div className="faq_number_of_question">04</div>
+                        <div className="faq_question">
+                            <div className="faq_question_title">I have a bigger project. Can you handle it ?</div>
                             
                             
                         </div>
-                        <div class="x">
+                        <div className="x">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                 <path opacity="0.7" d="M13.449 15.8929L8.30697 10.7508L3.03761 16.0201L0.339287 13.3218L5.60865 8.05247L0.466566 2.91039L2.91033 0.466626L8.05241 5.60871L13.3218 0.339346L16.0201 3.03767L10.7507 8.30703L15.8928 13.4491L13.449 15.8929Z" fill="#282938"/>
                             </svg>
                         </div>
                     </div>
-                    <div class="faq_question_item">
-                        <div class="faq_number_of_question">05</div>
-                        <div class="faq_question">
-                            <div class="faq_question_title">What is your class naming convention ?</div>
+                    <div className="faq_question_item">
+                        <div className="faq_number_of_question">05</div>
+                        <div className="faq_question">
+                            <div className="faq_question_title">What is your class naming convention ?</div>
                             
                             
                         </div>
-                        <div class="x">
+                        <div className="x">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                 <path opacity="0.7" d="M13.449 15.8929L8.30697 10.7508L3.03761 16.0201L0.339287 13.3218L5.60865 8.05247L0.466566 2.91039L2.91033 0.466626L8.05241 5.60871L13.3218 0.339346L16.0201 3.03767L10.7507 8.30703L15.8928 13.4491L13.449 15.8929Z" fill="#282938"/>
                             </svg>
