@@ -46,17 +46,17 @@ function App() {
                           </svg>
                     </a>
                 </div>
-                <div class="freespace">                </div>
-                <nav class="navbar">
-                    <div class = "divnav"><a href="index.html" class = "nava">Home</a></div>
-                    <div class = "divnav"><a href="#" class = "nava">About us</a></div>
-                    <div class = "divnav"><a href="#" class = "nava">Features</a></div>
-                    <div class = "divnav"><a href="pricing.html" class = "nava">Pricing</a></div>
-                    <div class = "divnav"><a href="#" class = "nava">FAQ</a></div>
-                    <div class = "divnav"><a href="#" class = "nava">Blog</a></div>
+                <div className="freespace">                </div>
+                <nav className="navbar">
+                    <div className = "divnav"><a href="index.html" className = "nava">Home</a></div>
+                    <div className = "divnav"><a href="#" className = "nava">About us</a></div>
+                    <div className = "divnav"><a href="#" className = "nava">Features</a></div>
+                    <div className = "divnav"><a href="pricing.html" className = "nava">Pricing</a></div>
+                    <div className = "divnav"><a href="#" className = "nava">FAQ</a></div>
+                    <div className = "divnav"><a href="#" className = "nava">Blog</a></div>
                 </nav>
-                <div class="div_butt">
-                    <a href="contacts.html" class = "ba">Contact us</a>
+                <div className="div_butt">
+                    <a href="contacts.html" className = "ba">Contact us</a>
                 </div>
             </div>
         </header>
