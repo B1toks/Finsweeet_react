@@ -687,99 +687,50 @@ margin-top: 4px;
 
 
 
-
+.main{
+  background-color: red;
+}
 
 /* hovered */
 
 
-
-.websitePage {
+.websitePage, .landingPage, .complexProject {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.websitePage.hovered {
+.websitePage.hovered, .landingPage.hovered, .complexProject.hovered {
   background-color: #1C1E53;
   transform: scale(1.05);
-  transition:500ms ;
+  transition: 500ms;
 }
 
-.websitePage:hover .div_but_view_ourwork  {
+.websitePage:hover .div_but_view_ourwork,
+.landingPage:hover .div_but_view_ourwork,
+.complexProject:hover .div_but_view_ourwork {
   background-color: #FCD980; /* Змінений колір кнопки при наведенні */
 }
-.div_but_view_ourwork :hover{
+
+.div_but_view_ourwork:hover {
   padding: 16px 64px;
 }
 
-.websitePage:hover .benefit{
-  color: #fff;
-}
-.websitePage:hover .price{
-  color: #fff;
-}
-.websitePage:hover .price-Task{
-  color: #FCD980;
-}
-.websitePage:hover .price-underTitle{
-  color: #fff;
-}
-.websitePage:hover .price-Title{
+.websitePage:hover .benefit, 
+.websitePage:hover .price, 
+.websitePage:hover .price-underTitle, 
+.websitePage:hover .price-Title,
+.landingPage:hover .benefit, 
+.landingPage:hover .price, 
+.landingPage:hover .price-underTitle, 
+.landingPage:hover .price-Title,
+.complexProject:hover .benefit, 
+.complexProject:hover .price, 
+.complexProject:hover .price-underTitle, 
+.complexProject:hover .price-Title {
   color: #fff;
 }
 
-.websitePage:hover .div_but_view_ourwork  {
-  background-color: #FCD980; /* Змінений колір кнопки при наведенні */
-}
-
-.landingPage:hover .benefit{
-  color: #fff;
-}
-.landingPage:hover .price{
-  color: #fff;
-}
-.landingPage:hover .price-Task{
+.websitePage:hover .price-Task, 
+.landingPage:hover .price-Task, 
+.complexProject:hover .price-Task {
   color: #FCD980;
-}
-.landingPage:hover .price-underTitle{
-  color: #fff;
-}
-.landingPage:hover .price-Title{
-  color: #fff;
-}
-.landingPage.hovered {
-  background-color: #1C1E53;
-  transform: scale(1.05);
-  transition:500ms;
-}
-.landingPage {
-  transition: background-color 0.3s, transform 0.3s;
-}
-.landingPage:hover .div_but_view_ourwork  {
-  background-color: #FCD980; /* Змінений колір кнопки при наведенні */
-}
-
-.complexProjext:hover .benefit{
-  color: #fff;
-}
-.complexProjext:hover .price{
-  color: #fff;
-}
-.complexProjext:hover .price-Task{
-  color: #FCD980;
-}
-.complexProjext:hover .price-underTitle{
-  color: #fff;
-}
-.complexProjext:hover .price-Title{
-  color: #fff;
-}
-.complexProjext.hovered {
-  background-color: #1C1E53;
-  transform: scale(1.05);
-  transition:500ms ;
-}
-.complexProjext {
-  transition: background-color 0.3s, transform 0.3s;
-}
-.complexProjext:hover .div_but_view_ourwork  {
-  background-color: #FCD980; /* Змінений колір кнопки при наведенні */
 }
