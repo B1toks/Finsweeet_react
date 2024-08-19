@@ -139,7 +139,9 @@ function App() {
                                 </div>
                                 <div className="button_plan">
                                     <div className="div_but_view_ourwork">
-                                        <a href="#" className = "bav">Get started</a>
+                                        <div className="but_text_scale">
+                                            <a href="#" className = "bav">Get started</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +220,10 @@ function App() {
                                 </div>
                                 <div className="button_plan">
                                     <div className="div_but_view_ourwork">
-                                        <a href="#" className = "bav">Get started</a>
+                                        <div className="but_text_scale">
+                                            <a href="#" className = "bav">Get started</a>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 
@@ -306,7 +311,9 @@ function App() {
                                 </div>
                                 <div className="button_plan">
                                     <div className="div_but_view_ourwork">
-                                        <a href="contacts.html" className = "bav">Contact Us</a>
+                                    <div className="but_text_scale">
+                                            <a href="#" className = "bav">Contact us</a>
+                                        </div>
                                     </div>
                                 </div>
                                 

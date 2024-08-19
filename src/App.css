@@ -694,10 +694,11 @@ margin-top: 4px;
   transition: background-color .8s, transform .8s;
 }
 
-.websitePage:hover, .landingPage:hover, .complexProjext:hover {
+.websitePage:hover, .landingPage:hover, .complexProjext:hover    {
   background-color: #1C1E53;
   transform: scale(1.05);
   transition: 500ms;
+  
 }
 
 .websitePage:hover .div_but_view_ourwork,
@@ -706,8 +707,14 @@ margin-top: 4px;
   background-color: #FCD980; /* Змінений колір кнопки при наведенні */
 }
 
-.div_but_view_ourwork:hover {
+.div_but_view_ourwork:hover{
   padding: 8px 32px;
+  transition: ease-in-out .5s;
+}
+.div_but_view_ourwork:hover .but_text_scale{
+  transform: scale(1.15);
+  transition: ease-in  .45s;
+  
 }
 
 .websitePage:hover .benefit, 
