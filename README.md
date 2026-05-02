@@ -2,7 +2,7 @@
 
 A pixel-perfect React adaptation of a Finsweet/Webflow-style pricing page — built with Vite, hand-written CSS, and zero icon libraries (every icon is an inline SVG).
 
-🌐 **Live demo:** _coming soon (Vercel deploy in progress)_
+🌐 **Live demo:** **[finsweeet-react.vercel.app](https://finsweeet-react.vercel.app)**
 
 > Built as a "convert this design to React" exercise. The original static HTML/CSS lives alongside the React app in `pricing.html` (44 KB) — useful side-by-side reference for spotting drift between the design and the implementation.
 
